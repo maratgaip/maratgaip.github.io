@@ -180,17 +180,46 @@
   <div class="card" onclick="document.querySelector('#flip-toggle').classList.toggle('hover');">
     <div class="flip-container" id="flip-toggle">
       <div class="flipper">
-        <div class="front">
-          What is Closure?
+        <div class="front" id="front">
         </div>
-        <div class="back"">
-          A function within a function, a closure is an inner function that has access to the outer function's variables.
+        <div class="back" id="back">
         </div>
       </div>
     </div>
   </div>
-  <div class="next" onclick="location.reload()">Next</div>
+  <div class="next" onclick="nextQuestion()">Next</div>
 <script>
+  const questions = [
+    {
+      front: "What is Closure?",
+      back: 'A function within a function, a closure is an inner function that has access to the outer function\'s variables.'
+    },
+    {
+      front: "What is a recent technical challenge you experienced and how did you solve it?",
+      back: 'Come up with technical challenges'
+    },
+    {
+      front: "How do you increase performance",
+      back: 'ansers....'
+    }
+  ];
+
+
+  function nextQuestion() {
+    const index = Math.floor(Math.random() * Math.floor(questions.length));
+    const currentQuestion = questions.splice(index, 1)[0];
+    if (!currentQuestion) {
+      location.reload()
+    } else {
+      document.getElementById('front').innerText = currentQuestion.front;
+      document.getElementById('back').innerText = currentQuestion.back;
+    }
+  }
+
+  nextQuestion();
+
+
+
   setTimeout(function() { window.scrollTo(0, 1)
     document.body.requestFullscreen()
   }, 1000);
