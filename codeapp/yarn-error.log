@@ -1,0 +1,81 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/gaimarat/.toolbox/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.10.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "reveal.js",
+    "version": "2.6.2",
+    "description": "The HTML Presentation Framework",
+    "homepage": "http://lab.hakim.se/reveal-js",
+    "subdomain": "revealjs",
+    "scripts": {
+      "test": "grunt test",
+      "start": ""
+    },
+    "author": {
+      "name": "Hakim El Hattab",
+      "email": "hakim.elhattab@gmail.com",
+      "web": "http://hakim.se"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/hakimel/reveal.js.git"
+    },
+    "engines": {
+      "node": "~0.8.0"
+    },
+    "dependencies": {
+      "underscore": "~1.5.1",
+      "express": "~2.5.9",
+      "mustache": "~0.7.2",
+      "socket.io": "~0.9.13"
+    },
+    "devDependencies": {
+      "grunt-contrib-qunit": "~0.2.2",
+      "grunt-contrib-jshint": "~0.6.4",
+      "grunt-contrib-cssmin": "~0.4.1",
+      "grunt-contrib-uglify": "~0.2.4",
+      "grunt-contrib-watch": "~0.5.3",
+      "grunt-contrib-sass": "~0.5.0",
+      "grunt-contrib-connect": "~0.4.1",
+      "grunt-zip": "~0.7.0",
+      "grunt": "~0.4.0"
+    },
+    "licenses": [
+      {
+        "type": "MIT",
+        "url": "https://github.com/hakimel/reveal.js/blob/master/LICENSE"
+      }
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Found incompatible module
+      at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at Object.checkOne (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:62444:11)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:22773:75
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:116:14
+      at new Promise (<anonymous>)
+      at new F (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:23451:28)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:95:12
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:22777:27
