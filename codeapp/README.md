@@ -1,5 +1,5 @@
 # Intro to HTML/CSS
-Slides and materials are hosted at [http://girldevelopit.github.io/gdi-featured-html-css-intro//](http://girldevelopit.github.io/gdi-featured-html-css-intro/).
+Slides and materials are hosted at
 
 ## Course description
 This is a 4-part, 8-hour course.
