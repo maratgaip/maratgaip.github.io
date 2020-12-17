@@ -359,8 +359,7 @@ textarea {
 }
 
 .menu-part ul .logo a {
-  /* background: url('../images/logo.png') no-repeat center center; */
-  background: url('../images/noname-logo-tr.png') no-repeat center center;
+  background: url('../images/noname-logo-color.png') no-repeat center center;
   background-size: contain;
   background-color: #ffffff;
   border-radius: 200%;
@@ -441,9 +440,10 @@ textarea {
 /* Revolution slider Change Here... */
 
 .slider-outer {
-  float: left;
   width: 100%;
   position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .slider-outer ul,
@@ -1709,4 +1709,10 @@ span.quort {
 .gallery-outer {
   height: 800px;
   overflow: hidden;
+}
+@media only screen
+and (max-width : 500px) {
+  .col-xs-4 {
+    width: 50%;
+  }
 }
