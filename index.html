@@ -1,535 +1,838 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zxx">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Applify - App Showcase and SAAS HTML Template</title>
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/applify.min.css"/>
-	<style>
-		.ui-hero.ui-tilt.hero-center img {
-			margin-bottom: -10rem;
-		}
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Locoda - App Landing Page</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/applify.min.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+  </head>
+  <body class="ui-transparent-nav" data-fade_in="on-load">
+    <!-- Navbar Fixed + Default -->
+    <nav class="navbar navbar-fixed-top transparent navbar-light bg-white">
+      <div class="container">
+        <!-- Navbar Logo -->
+        <a
+          class="ui-variable-logo navbar-brand"
+          href="index.html"
+          title="Locoda - App Landing HTML Template"
+        >
+          <!-- Default Logo -->
+          <img
+            class="logo-default"
+            src="assets/img/logo/applify-logo.png"
+            alt="Locoda - App Landing HTML Template"
+            data-uhd
+          />
+          <!-- Transparent Logo -->
+          <img
+            class="logo-transparent"
+            src="assets/img/logo/applify-logo-white.png"
+            alt="Locoda - App Landing HTML Template"
+            data-uhd
+          /> </a
+        ><!-- .navbar-brand -->
 
-		@media (min-width: 740px) {
-			.ui-hero.ui-tilt.hero-center img {
-				margin-bottom: -15rem;
-			}
-		}
+        <!-- Navbar Navigation -->
+        <div class="ui-navigation navbar-center">
+          <ul class="nav navbar-nav">
+            <!-- Nav Item -->
+            <li>
+              <a href="#" data-scrollto="features">Features</a>
+            </li>
+            <!-- Nav Item -->
+            <li>
+              <a href="#" data-scrollto="showcase">Platform</a>
+            </li>
+            <!-- Nav Item -->
+            <li>
+              <a href="#" data-scrollto="integrate">Integrate</a>
+            </li>
+            <!-- Nav Item -->
+            <li>
+              <a href="#" data-scrollto="code">Solutions</a>
+            </li>
+          </ul>
+          <!--.navbar-nav -->
+        </div>
+        <!--.ui-navigation -->
 
-		@media (min-width: 992px) {
-			.ui-hero.ui-tilt.hero-center img {
-				margin-bottom: -20rem;
-			}
-		}
+        <!-- Navbar Toggle -->
+        <a href="#" class="ui-mobile-nav-toggle pull-right"></a>
+      </div>
+      <!-- .container -->
+    </nav>
+    <!-- nav -->
 
-		@media (min-width: 1367px) {
-			.ui-hero.ui-tilt.hero-center img {
-				margin-bottom: -30rem;
-			}
-		}
+    <!-- Main Wrapper -->
+    <div class="main" role="main">
+      <!-- Hero -->
+      <div
+        class="ui-hero hero-lg hero-center hero-svg-layer-2 bg-indigo ui-tilt"
+      >
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-sm-12"
+              data-vertical_center="true"
+              data-vertical_offset="16"
+            >
+              <h1
+                class="heading animate"
+                data-show="fade-in-up-big"
+                data-delay="100"
+              >
+                No-code platform to automate customer support interactions
+              </h1>
+              <p class="paragraph">
+                Drives efficiency and highest CSAT and better compliance
+              </p>
+              <div
+                class="actions animate"
+                data-show="fade-in-up-big"
+                data-delay="600"
+              >
+                <a
+                  href="#"
+                  class="btn ui-gradient-peach shadow-xl"
+                  data-scrollto="features"
+                  >Try it Now</a
+                >
+              </div>
+            </div>
+            <div
+              class="col-sm-12 animate"
+              data-show="fade-in-up"
+              data-delay="400"
+            >
+              <img
+                src="images/dashboard.png"
+                alt="Locoda - App Landing Page HTML Template"
+                data-uhd
+                data-max_width="1000"
+                class="responsive-on-lg"
+              />
+            </div>
+          </div>
+          <!-- .row -->
+        </div>
+        <!-- .container -->
+      </div>
+      <!-- .ui-hero -->
 
-		.mb {
-			margin-bottom: 2rem;
-		}
+      <!-- App Features Section -->
+      <div id="features" class="section">
+        <div class="container ui-icon-blocks ui-blocks-h icons-lg">
+          <div class="row">
+            <div class="col-sm-4 ui-icon-block">
+              <div
+                class="icon icon-lg icon-circle icon-rocket ui-gradient-blue"
+              ></div>
+              <h4>Reduce your support costs</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam.
+              </p>
+            </div>
+            <div class="col-sm-4 ui-icon-block">
+              <div
+                class="icon icon-lg icon-circle icon-ghost ui-gradient-peach"
+              ></div>
+              <h4>Continuously improve CSAT</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam.
+              </p>
+            </div>
+            <div class="col-sm-4 ui-icon-block">
+              <div
+                class="icon icon-lg icon-circle icon-trophy ui-gradient-green"
+              ></div>
+              <h4>Increase compliance</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam.
+              </p>
+            </div>
+          </div>
+          <!-- .row -->
+        </div>
+        <!-- .container -->
+      </div>
+      <!-- .section -->
 
-		.demo-card {
-			position: relative;
-			height: 260px;
-			overflow: hidden;
-			border-radius: .75rem;
-			z-index: 2;
-			margin-bottom: 1rem;
-			cursor: pointer;
-			transition: box-shadow .35s ease-out;
-		}
+      <!-- Showcase Blocks Section -->
+      <div id="showcase" class="section bg-light">
+        <div class="container">
+          <!-- Section Heading -->
+          <div class="section-heading center">
+            <h2 class="heading text-indigo">Locoda Benefits</h2>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <!-- .section-heading -->
 
-		.demo-card img {
-			position: relative;
-			top: 100%;
-			width: 100%;
-			max-width: 100%;
-			height: auto;
-			z-index: 1;
-			transform: translateY(-260px);
-			transition: transform cubic-bezier(0.86, 0, 0.07, 1);
-		}
+          <div class="ui-showcase-blocks">
+            <div class="row">
+              <div class="col-md-6" data-vertical_center="true">
+                <h4 class="heading">Low-code designer</h4>
+                <p class="paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <a href="#" class="btn-link btn-arrow">Explore</a>
+              </div>
+              <div class="col-md-6">
+                <img
+                  class="responsive-on-xs"
+                  src="assets/img/mockups/applify-mockup-7.png"
+                  data-uhd
+                  alt="Locoda - App Landing HTML Template"
+                  data-max_width="464"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6" data-vertical_center="true">
+                <h4 class="heading">Versioning, experimentation, rollouts</h4>
+                <p class="paragraph">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum.
+                </p>
+                <a href="#" class="btn-link btn-arrow">Explore</a>
+              </div>
+              <div class="col-md-6">
+                <img
+                  class="responsive-on-xs"
+                  src="assets/img/mockups/applify-mockup-10.png"
+                  data-uhd
+                  alt="Locoda - App Landing HTML Template"
+                  data-max_width="451"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .container -->
+      </div>
+      <!-- .section -->
 
-		.demo-card:hover {
-			box-shadow: 0 12px 22px rgba(0, 9, 128, 0.05), 0 20px 36px rgba(0, 9, 128, 0.075);
-		}
+      <!-- Integration Section -->
+      <div id="integrate" class="section bg-indigo">
+        <div class="container">
+          <div class="row">
+            <!-- Left Column -->
+            <div class="col-xl-6 col-lg-5" data-vertical_center="true">
+              <!-- Section Heading -->
+              <div class="section-heading mb-2 center-on-md">
+                <h2 class="heading">Integration with your existing systems</h2>
+                <p class="paragraph">
+                  Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit Sed Do
+                  Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Ali
+                </p>
+              </div>
+              <!-- .section-heading -->
 
-		.demo-card:hover img {
-			transform: translateY(-100%);
-			transition: transform linear;
-		}
+              <!-- Left blocks -->
+              <ul class="ui-icon-blocks ui-blocks-v icons-sm center-on-md">
+                <li class="ui-icon-block">
+                  <span class="icon icon-diamond"></span>
+                  <p class="">
+                    Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit Sed
+                    Do Eiusmod Tempor Incididunt Ut Labore Et Dolore
+                  </p>
+                  <a class="btn-link btn-arrow"> Learn More </a>
+                </li>
+                <li class="ui-icon-block">
+                  <span class="icon icon-pie-chart"></span>
+                  <p class="">
+                    Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit
+                  </p>
+                  <a class="btn-link btn-arrow"> Learn More </a>
+                </li>
+                <li class="ui-icon-block">
+                  <span class="icon icon-layers"></span>
+                  <p class="">
+                    Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit Sed
+                    Do Eiusmod
+                  </p>
+                  <a class="btn-link btn-arrow"> Learn More </a>
+                </li>
+              </ul>
+            </div>
 
-		.demo-card.no-anim img,
-		.demo-card.no-anim:hover img {
-			top: 0;
-			transform: translateY(0);
-		}
+            <!-- Right Column -->
+            <div class="col-xl-6 col-lg-7">
+              <!-- Logo Cloud -->
+              <div class="ui-logos-cloud">
+                <div data-size="4" class="mt-0 animate" data-show="fade-in">
+                  <img
+                    src="assets/img/3rd-party-logos/logo.png"
+                    alt="Applif App Landing Page"
+                  />
+                </div>
+                <div data-size="10" class="mt-0 animate" data-show="fade-in">
+                  <img
+                    src="assets/img/3rd-party-logos/logo.png"
+                    alt="Applif App Landing Page"
+                  />
+                </div>
+                <div data-size="7" class="mt-0 animate" data-show="fade-in">
+                  <img
+                    src="assets/img/3rd-party-logos/logo.png"
+                    alt="Applif App Landing Page"
+                  />
+                </div>
 
-		@media (max-width: 500px) {
-			.col-6 {
-				width: 100%;
-				float: none;
-			}
-		}
+                <!-- Flex Break -->
+                <span class="flex-break"></span>
 
-		h5 {
-			display: block;
-		}
+                <div data-size="4" class="animate" data-show="fade-in">
+                  <img
+                    src="assets/img/3rd-party-logos/logo.png"
+                    data-uhd
+                    alt="Applif App Landing Page"
+                  />
+                </div>
+                <div data-size="10" class="animate" data-show="fade-in">
+                  <img
+                    src="assets/img/3rd-party-logos/logo.png"
+                    data-uhd
+                    alt="Applif App Landing Page"
+                  />
+                </div>
+                <div data-size="4" class="animate" data-show="fade-in">
+                  <img
+                    src="assets/img/3rd-party-logos/logo.png"
+                    data-uhd
+                    alt="Applif App Landing Page"
+                  />
+                </div>
+                <div data-size="6" class="animate" data-show="fade-in">
+                  <img
+                    src="assets/img/3rd-party-logos/logo.png"
+                    data-uhd
+                    alt="Applif App Landing Page"
+                  />
+                </div>
+                <div data-size="3" class="animate" data-show="fade-in">
+                  <img
+                    src="assets/img/3rd-party-logos/logo.png"
+                    data-uhd
+                    alt="Applif App Landing Page"
+                  />
+                </div>
 
-		.badge {
-			vertical-align: bottom;
-			font-size: .75rem;
-			display: inline-block;
-			padding: .25rem .45rem;
-		}
+                <!-- Flex Break -->
+                <span class="flex-break"></span>
 
-		ul {
-			list-style: none;
-			margin-bottom: 0;
-			padding-left: 0;
-		}
+                <div data-size="8" class="animate" data-show="fade-in">
+                  <img
+                    src="assets/img/3rd-party-logos/logo.png"
+                    data-uhd
+                    alt="Applif App Landing Page"
+                  />
+                </div>
+                <div data-size="3" class="animate" data-show="fade-in">
+                  <img
+                    src="assets/img/3rd-party-logos/logo.png"
+                    data-uhd
+                    alt="Applif App Landing Page"
+                  />
+                </div>
+                <div data-size="10" class="animate" data-show="fade-in">
+                  <img
+                    src="assets/img/3rd-party-logos/logo.png"
+                    data-uhd
+                    alt="Applif App Landing Page"
+                  />
+                </div>
+                <div data-size="5" class="animate" data-show="fade-in">
+                  <img
+                    src="assets/img/3rd-party-logos/logo.png"
+                    data-uhd
+                    alt="Applif App Landing Page"
+                  />
+                </div>
 
-		ul li {
-			color: #59687c;
-			font-size: .95rem;
-			line-height: 1.5
-		}
+                <!-- Flex Break -->
+                <span class="flex-break"></span>
 
-		.demo-container .row {
-			display: -webkit-box;
-			display: -webkit-flex;
-			display: -ms-flexbox;
-			display: flex;
-			-webkit-box-orient: horizontal;
-			-webkit-box-direction: normal;
-			-webkit-flex-direction: row;
-			-ms-flex-direction: row;
-			flex-direction: row;
-			-ms-flex-pack: center;
-			justify-content: center
-		}
+                <div data-size="3" class="animate" data-show="fade-in">
+                  <img
+                    src="assets/img/3rd-party-logos/logo.png"
+                    data-uhd
+                    alt="Applif App Landing Page"
+                  />
+                </div>
+                <div data-size="10" class="animate" data-show="fade-in">
+                  <img
+                    src="assets/img/3rd-party-logos/logo.png"
+                    data-uhd
+                    alt="Applif App Landing Page"
+                  />
+                </div>
+                <div data-size="7" class="animate" data-show="fade-in">
+                  <img
+                    src="assets/img/3rd-party-logos/logo.png"
+                    data-uhd
+                    alt="Applif App Landing Page"
+                  />
+                </div>
 
-		.demo-container .row > div {
-			max-width: 257px;
-		}
-	</style>
-</head>
+                <!-- Flex Break -->
+                <span class="flex-break"></span>
 
-<body class="ui-transparent-nav" data-fade_in="on-load">
+                <div data-size="4" class="mb-0 animate" data-show="fade-in">
+                  <img
+                    src="assets/img/3rd-party-logos/logo.png"
+                    data-uhd
+                    alt="Applif App Landing Page"
+                  />
+                </div>
+              </div>
+              <!-- .ui-logo-cloud  -->
+            </div>
+          </div>
+          <!-- .row -->
+        </div>
+        <!-- .container -->
+      </div>
+      <!-- .section -->
 
-<!-- Navbar Fixed + Default -->
-<nav class="navbar navbar-fixed-top transparent bg-indigo">
-	<div class="container">
+      <!-- Big Image Section -->
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6" data-vertical_center="true">
+              <div class="section-heading center-on-md">
+                <h2 class="heading text-indigo">Analytics</h2>
+                <p class="paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div class="actions">
+                  <a
+                    href="page-api-docs.html"
+                    class="btn ui-gradient-peach shadow-xl"
+                    >Try It Free</a
+                  >
+                  <a
+                    href="page-api-docs.html"
+                    class="btn ui-gradient-green shadow-xl"
+                    >Get Started</a
+                  >
+                </div>
+              </div>
+              <!-- .section-heading -->
+            </div>
+            <div class="col-lg-6">
+              <img
+                src="assets/img/mockups/applify-browser-mockup.png"
+                data-uhd
+                data-max_width="1065"
+                class="responsive-on-md shadow-xl"
+                alt="Locoda - App Landing HTML Template"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- .container -->
+      </div>
+      <!-- .section -->
 
-		<!-- Navbar Logo -->
-		<a class="ui-variable-logo navbar-brand" href="index.html" title="Applify - App Landing HTML Template">
-			<!-- Default Logo -->
-			<img class="logo-default" src="assets/img/logo/applify-logo-white.png"
-			     alt="Applify - App Landing HTML Template" data-uhd>
-			<!-- Transparent Logo -->
-			<img class="logo-transparent" src="assets/img/logo/applify-logo-white.png"
-			     alt="Applify - App Landing HTML Template" data-uhd>
-		</a><!-- .navbar-brand -->
+      <!-- API Tabs Section -->
+      <div id="code" class="section bg-light">
+        <div class="container">
+          <div class="section-heading center">
+            <h2 class="heading text-indigo">Locoda Automations</h2>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <!-- .section-heading -->
 
-		<!-- Navbar Button -->
-		<a href="https://themeforest.net/item/applify-app-landing-page-html/20000720"
-		   class="btn btn-sm ui-gradient-peach pull-right">Get Started</a>
+          <!-- API Tabs -->
+          <div class="ui-api-demo">
+            <div class="ui-tabs ui-lime row">
+              <div class="col-md-3 col-lg-3">
+                <!-- Nav Tabs -->
+                <ul class="nav nav-tabs nav-vertical" role="tablist">
+                  <!-- Nav Tab 1 -->
+                  <li role="presentation" class="nav-item">
+                    <a
+                      class="nav-link active"
+                      href="#js"
+                      role="tab"
+                      data-toggle="tab"
+                      data-toggle_screen="1"
+                      data-toggle_slider="device-slider-2"
+                      aria-expanded="false"
+                    >
+                      Messaging Channels
+                    </a>
+                  </li>
+                  <!-- Nav Tab 2 -->
+                  <li role="presentation" class="nav-item">
+                    <a
+                      class="nav-link"
+                      href="#swift"
+                      role="tab"
+                      data-toggle="tab"
+                      data-toggle_screen="2"
+                      data-toggle_slider="device-slider-2"
+                      aria-expanded="false"
+                    >
+                      Self-Service Interactions
+                    </a>
+                  </li>
+                  <!-- Nav Tab 3 -->
+                  <li role="presentation" class="nav-item">
+                    <a
+                      class="nav-link"
+                      href="#java"
+                      role="tab"
+                      data-toggle="tab"
+                      data-toggle_screen="3"
+                      data-toggle_slider="device-slider-2"
+                      aria-expanded="false"
+                    >
+                      Chatbots
+                    </a>
+                  </li>
+                  <!-- Nav Tab 4 -->
+                  <li role="presentation" class="nav-item">
+                    <a
+                      class="nav-link"
+                      href="#obj-c"
+                      role="tab"
+                      data-toggle="tab"
+                      data-toggle_screen="4"
+                      data-toggle_slider="device-slider-2"
+                      aria-expanded="true"
+                    >
+                      IVR interactions
+                    </a>
+                  </li>
+                </ul>
+              </div>
 
-	</div><!-- .container -->
-</nav> <!-- nav -->
+              <!-- Tab Panels -->
+              <div class="tab-content col-md-9 col-lg-9">
+                <!-- Tab 1 -->
+                <div role="tabpanel" class="tab-pane fade active show" id="js">
+                  <div class="ui-card shadow-xl">
+                    <pre class="language-javascript line-numbers">
+                                  <code class="language-javascript">
+                                      // Private key
+                                      var privateKey = get('87E#R{VxxbWva%2D?-sm=$DmW#{7y@E');
 
-<!-- Main Wrapper -->
-<div class="main" role="main">
+                                      // Create a payment
+                                      var payment = charge({
+                                        key: privateKey,
+                                        amount: 599,
+                                        currency: 'usd',
+                                        source: 'visa',
+                                        description: 'My first payment'
+                                      });
+                                  </code>
+                              </pre>
+                  </div>
+                </div>
+                <!-- Tab 2 -->
+                <div role="tabpanel" class="tab-pane fade" id="swift">
+                  <div class="ui-card shadow-xl">
+                    <pre class="language-swift line-numbers">
+                                  <code class="language-swift">
+                                        //  Authorize Payment
+                                        @IBAction func authorizePayment(_ sender: AnyObject) {
+                                          let paymentViewController = paymentViewController(configuration: paymentConfig, delegate: self)
+                                          present(paymentViewController!, animated: true, completion: nil)
+                                        }
 
-	<!-- Hero With Background -->
-	<div class="ui-hero hero-lg hero-center bg-indigo ui-tilt hero-svg-layer svg-layer-2">
-		<div class="container">
-			<h1 class="heading animate" data-show="fade-in-up-big" data-delay="100">
-				Welcome to Applify.<br>
-				Vibrant. New. Fun!
-			</h1>
-			<div class="actions animate" data-show="fade-in-up-big" data-delay="600">
-				<a href="#" class="btn ui-gradient-green shadow-xl" data-scrollto="demos">Demos</a>
-				<a href="https://themeforest.net/item/applify-app-landing-page-html/20000720"
-				   class="btn ui-gradient-peach shadow-xl">Get Started</a>
-			</div>
-			<img src="assets/img/demos/applify-demos-hero.png" alt="Applify - App Landing Page HTML Template" data-uhd
-			     data-max_width="1000" class="responsive-on-lg"/>
-		</div><!-- .container -->
-	</div><!-- .ui-hero -->
+                                        // Cancel Payment
+                                        func paymentDidCancel(_ paymentViewController: PaymentViewController) {
+                                          print("Payment Cancelled")
+                                          resultText = ""
+                                          successView.isHidden = true
+                                          paymentViewController.dismiss(animated: true, completion: nil)
+                                        }
+                                  </code>
+                              </pre>
+                  </div>
+                </div>
+                <!-- Tab 3 -->
+                <div role="tabpanel" class="tab-pane fade" id="java">
+                  <div class="ui-card shadow-xl">
+                    <pre class="language-java line-numbers">
+                                  <code class="language-java">
+                                        // Private key
+                                        PaymentsApi.PRIVATE_KEY = "87E#R{VxxbWva%2D?-sm=$DmW#{7y@E";
+                                        
+                                        // Create a payment
+                                        Payment payment = Payment.create(new PaymentsMap()
+                                          .set("currency", "USD")
+                                          .set("token", "f21da65e-f0ab-45cb-b8e6-40b493c3671f")
+                                          .set("amount", 599)
+                                          .set("description", "My first payment")
+                                        );
+                                  </code>
+                              </pre>
+                  </div>
+                </div>
+                <!-- Tab 4 -->
+                <div role="tabpanel" class="tab-pane fade" id="obj-c">
+                  <div class="ui-card shadow-xl">
+                    <pre class="language-objectivec line-numbers">
+                                  <code class="language-objectivec">
+                                      // Open Payment Screen
+                                      - (IBAction)btnStripeTapped:(id)sender{
+                                          PaymentViewController *paymentViewController = [[PaymentViewController alloc] initWithNibName:nil bundle:nil];
+                                          paymentViewController.amount = [NSDecimalNumber decimalNumberWithString:@"1.50"];
+                                          paymentViewController.delegate = self;
 
-	<!-- Demos Section -->
-	<div id="demos" class="section pt-2">
-		<div class="container">
-			<div class="section-heading center">
-				<h2 class="heading text-indigo">
-					Niche Websites
-				</h2>
-				<p class="paragraph">
-					Applify comes with 3 pre-built niche demos.
-				</p>
-			</div>
-		</div>
-		<div class="container text-center demo-container">
-			<div class="row">
-				<div class="col-md-3 col-6 mb">
-					<div class="ui-card  demo-card shadow-md" data-target="demo-mobile-app-1.html">
-						<img src="assets/img/demos/applify-demo-mobile-app-1.png"
-						     alt="Applify - App Landing HTML Template" class="img-responsive" data-uhd/>
-					</div>
-					<a target="_blank" href="demo-mobile-app-1.html">
-						<h5>Mobile App 1 <span class="badge badge-primary">New</span></h5>
-						<!--<ul>
-							<li>One Page</li>
-							<li>Purple Gradient</li>
-							<li>Slider Hero</li>
-							<li>Hero Waves with SVG Layer</li>
-							<li>Tabbed Showcase</li>
-							<li>App Screens Carousel</li>
-							<li>Blog Section</li>
-							<li>Footer with Sign-Up</li>
-						</ul>-->
-					</a>
-				</div>
-				<div class="col-md-3 col-6 mb">
-					<div class="ui-card  demo-card shadow-md" data-target="demo-mobile-app-2.html">
-						<img src="assets/img/demos/applify-demo-mobile-app-2.png"
-						     alt="Applify - App Landing HTML Template" class="img-responsive" data-uhd/>
-					</div>
-					<a target="_blank" href="demo-mobile-app-2.html">
-						<h5>Mobile App 2 <span class="badge badge-primary">New</span></h5>
-						<!--<ul>
-							<li>One Page</li>
-							<li>Purple Gradient</li>
-							<li>Slider Hero</li>
-							<li>Footer with Sign-Up</li>
-							<li>Blog Page</li>
-						</ul>-->
-					</a>
-				</div>
-				<div class="col-md-3 col-6 mb" data-delay="400">
-					<div class="ui-card  demo-card shadow-md" data-target="demo-saas.html">
-						<img src="assets/img/demos/applify-demo-saas.png" alt="Applify - App Landing HTML Template"
-						     class="img-responsive" data-uhd/>
-					</div>
-					<a target="_blank" href="demo-saas.html">
-						<h5>SAAS <span class="badge badge-primary">New</span></h5>
-						<!--<ul>
-							<li>Multi Page</li>
-							<li>Blue Gradient</li>
-							<li>Hero With SVG LAyers</li>
-							<li>Full Footer</li>
-							<li>API Docs Page</li>
-							<li>Pricing Page</li>
-						</ul>-->
-					</a>
-				</div>
-				<div class="col-md-3 col-6 mb" data-delay="200">
-					<div class="ui-card  demo-card shadow-md" data-target="demo-web-app.html">
-						<img src="assets/img/demos/applify-demo-web-app.png" alt="Applify - App Landing HTML Template"
-						     class="img-responsive" data-uhd/>
-					</div>
-					<a target="_blank" href="demo-web-app.html">
-						<h5>Web App <span class="badge badge-primary">New</span></h5>
-						<!--<ul>
-							<li>Multi Page</li>
-							<li>Peach Gradient</li>
-							<li>Hero With Form Field </li>
-							<li>Full Footer</li>
-							<li>Pricing Page</li>
-							<li>Blog Page</li>
-						</ul>-->
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
+                                          UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:paymentViewController]; 
+                                          [self presentViewController:navController animated:YES completion:nil];
+                                      }
+                                  </code>
+                              </pre>
+                  </div>
+                </div>
+              </div>
+              <!-- .tab-content -->
+            </div>
+          </div>
+          <!-- .ui-api-demo -->
 
-	<!-- Classic Demos Section -->
-	<div class="section bg-light">
-		<div class="container text-center demo-container">
-			<div class="section-heading center">
-				<h2 class="heading text-indigo">
-					Classic Demos
-				</h2>
-			</div>
-			<div class="row">
-				<div class="col-md-3 col-6 mb">
-					<div class="ui-card  demo-card shadow-md" data-target="demo-hero-slider.html">
-						<img src="assets/img/demos/demo-slider.jpg" alt="Applify - App Landing HTML Template"
-						     class="img-responsive" data-uhd/>
-					</div>
-					<a target="_blank" href="demo-hero-slider.html">
-						<h5>Slider Hero</h5>
-					</a>
-				</div>
-				<div class="col-md-3 col-6 mb" data-delay="200">
-					<div class="ui-card  demo-card shadow-md" data-target="demo-hero-waves.html">
-						<img src="assets/img/demos/demo-waves.jpg" alt="Applify - App Landing HTML Template"
-						     class="img-responsive" data-uhd/>
-					</div>
-					<a target="_blank" href="demo-hero-waves.html">
-						<h5>Waves Hero</h5>
-					</a>
-				</div>
-				<div class="col-md-3 col-6 mb" data-delay="400">
-					<div class="ui-card  demo-card shadow-md" data-target="demo-hero-curve.html">
-						<img src="assets/img/demos/demo-curved.jpg" alt="Applify - App Landing HTML Template"
-						     class="img-responsive" data-uhd/>
-					</div>
-					<a target="_blank" href="demo-hero-curve.html">
-						<h5>Curve Hero</h5>
-					</a>
-				</div>
-				<div class="col-md-3 col-6 mb" data-delay="600">
-					<div class="ui-card  demo-card shadow-md" data-target="demo-hero-tilt.html">
-						<img src="assets/img/demos/demo-tilted.jpg" alt="Applify - App Landing HTML Template"
-						     class="img-responsive" data-uhd/>
-					</div>
-					<a target="_blank" href="demo-hero-tilt.html">
-						<h5>Tilt Hero</h5>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
+          <div class="mt-4 text-center">
+            <a class="btn shadow-lg ui-gradient-peach" href="page-api-docs.html"
+              >View API Docs</a
+            >
+          </div>
+        </div>
+        <!-- .container -->
+      </div>
+      <!-- .section -->
 
-	<!-- Inner Pages Section -->
-	<div class="section bg-gray">
-		<div class="container">
-			<div class="section-heading center">
-				<h2 class="heading text-indigo">
-					Inner Pages
-				</h2>
-				<p class="paragraph">
-					Applify comes with 4 additional pages.
-				</p>
-			</div>
-		</div>
-		<div class="container text-center demo-container">
-			<div class="row">
-				<div class="col-md-3 col-6 mb">
-					<div class="ui-card  demo-card shadow-md" data-target="page-api-docs.html">
-						<img src="assets/img/demos/applify-demo-api-docs.png" alt="Applify - App Landing HTML Template"
-						     class="img-responsive" data-uhd/>
-					</div>
-					<a target="_blank" href="page-api-docs.html">
-						<h5 class="heading">API Docs <span class="badge badge-primary">New</span></h5>
-					</a>
-				</div>
-				<div class="col-md-3 col-6 mb">
-					<div class="ui-card  demo-card shadow-md" data-target="page-pricing.html">
-						<img src="assets/img/demos/applify-demo-pricing.png" alt="Applify - App Landing HTML Template"
-						     class="img-responsive" data-uhd/>
-					</div>
-					<a target="_blank" href="page-pricing.html">
-						<h5 class="heading">Pricing Plans <span class="badge badge-primary">New</span></h5>
-					</a>
-				</div>
-				<div class="col-md-3 col-6 mb" data-delay="200">
-					<div class="ui-card  demo-card shadow-md" data-target="page-contact.html">
-						<img src="assets/img/demos/applify-demo-contact.png" alt="Applify - App Landing HTML Template"
-						     class="img-responsive" data-uhd/>
-					</div>
-					<a target="_blank" href="page-contact.html">
-						<h5 class="heading">Contact Page <span class="badge badge-primary">New</span></h5>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
+      <!-- Client Logos Section  -->
+      <div class="section ui-clients-logos section-sm">
+        <div class="container">
+          <div class="d-flex justify-content-between">
+            <div>
+              <img
+                src="assets/img/clients-logos/logo.png"
+                alt="Locoda - App Landing HTML Template"
+                data-uhd
+              />
+            </div>
+            <div>
+              <img
+                src="assets/img/clients-logos/logo.png"
+                alt="Locoda - App Landing HTML Template"
+                data-uhd
+              />
+            </div>
+            <div>
+              <img
+                src="assets/img/clients-logos/logo.png"
+                alt="Locoda - App Landing HTML Template"
+                data-uhd
+              />
+            </div>
+            <div>
+              <img
+                src="assets/img/clients-logos/logo.png"
+                alt="Locoda - App Landing HTML Template"
+                data-uhd
+              />
+            </div>
+            <div>
+              <img
+                src="assets/img/clients-logos/logo.png"
+                alt="Locoda - App Landing HTML Template"
+                data-uhd
+              />
+            </div>
+          </div>
+          <!-- .row -->
+        </div>
+        <!-- .container -->
+      </div>
+      <!-- .ui-clients-logos  -->
 
-	<!-- Blog Pages Section -->
-	<div class="section bg-light">
-		<div class="container text-center demo-container">
-			<div class="section-heading center">
-				<h2 class="heading text-indigo">
-					Blog Pages With Sidebar
-				</h2>
-			</div>
-			<div class="row mb-4">
-				<div class="col-md-3 col-6 mb">
-					<div class="ui-card  demo-card shadow-md" data-target="page-blog-right-sidebar.html">
-						<img src="assets/img/demos/blog.jpg" alt="Applify - App Landing HTML Template"
-						     class="img-responsive" data-uhd/>
-					</div>
-					<a target="_blank" href="page-blog-right-sidebar.html">
-						<h5>Blog Sidebar Right</h5>
-					</a>
-				</div>
-				<div class="col-md-3 col-6 mb">
-					<div class="ui-card  demo-card shadow-md" data-target="page-blog-left-sidebar.html">
-						<img src="assets/img/demos/blog.jpg" alt="Applify - App Landing HTML Template"
-						     class="img-responsive" data-uhd/>
-					</div>
-					<a target="_blank" href="page-blog-left-sidebar.html">
-						<h5>Blog Sidebar Left</h5>
-					</a>
-				</div>
-				<div class="col-md-3 col-6 mb" data-delay="400">
-					<div class="ui-card  demo-card shadow-md" data-target="page-blog-post-right-sidebar.html">
-						<img src="assets/img/demos/blog-post.jpg" alt="Applify - App Landing HTML Template"
-						     class="img-responsive" data-uhd/>
-					</div>
-					<a target="_blank" href="page-blog-post-right-sidebar.html">
-						<h5>Blog Post Sidebar Right</h5>
-					</a>
-				</div>
-				<div class="col-md-3 col-6 mb" data-delay="400">
-					<div class="ui-card  demo-card shadow-md" data-target="page-blog-post-left-sidebar.html">
-						<img src="assets/img/demos/blog-post.jpg" alt="Applify - App Landing HTML Template"
-						     class="img-responsive" data-uhd/>
-					</div>
-					<a target="_blank" href="page-blog-post-left-sidebar.html">
-						<h5>Blog Post Sidebar Left</h5>
-					</a>
-				</div>
-			</div>
+      <!-- Footer -->
+      <footer class="ui-footer bg-indigo">
+        <div class="container pt-6 pb-6">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 footer-about footer-col center-on-sm">
+              <img
+                src="assets/img/logo/applify-logo-white.png"
+                data-uhd
+                alt="Applif - App Landing HTML Template"
+              />
+              <p class="mt-1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Donec elementum ligula eu sapien consequat eleifend.
+              </p>
+            </div>
+            <div class="col-md-2 col-6 footer-col">
+              <h6 class="heading footer-heading">Quick Nav</h6>
+              <ul class="footer-nav">
+                <li>
+                  <a href="demo-mobile-app-1.html">Mobile App 1</a>
+                </li>
+                <li>
+                  <a href="demo-mobile-app-2.html">Mobile App 2</a>
+                </li>
+                <li>
+                  <a href="demo-saas.html">Mobile Saas</a>
+                </li>
+                <li>
+                  <a href="demo-web-app.html">Web App</a>
+                </li>
+                <li>
+                  <a href="index.html#demos">More Demos</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-2 col-6 footer-col">
+              <h6 class="heading footer-heading">Other Pages</h6>
+              <ul class="footer-nav">
+                <li>
+                  <a href="page-api-docs.html">API Docs</a>
+                </li>
+                <li>
+                  <a href="page-pricing.html">Pricing Page</a>
+                </li>
+                <li>
+                  <a href="page-contact.html">Contact page</a>
+                </li>
+                <li>
+                  <a href="page-blog-grid.html">Blog Grid</a>
+                </li>
+                <li>
+                  <a href="page-coming-soon.html">Comig Soon</a>
+                </li>
+                <li>
+                  <a href="page-404.html">404 Error</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4 col-sm-6 footer-col center-on-sm">
+              <h6 class="heading footer-heading">Newsletter</h6>
+              <!-- Form -->
+              <form autocomplete="on" id="sign-up-form" name="sign-up-form">
+                <div class="form-group">
+                  <div class="input-group">
+                    <!-- Email Input -->
+                    <input
+                      autocomplete="email"
+                      class="input form-control"
+                      data-validation="required"
+                      data-validation-error-msg="Please enter your email"
+                      name="email"
+                      placeholder="Email"
+                    />
+                    <div class="input-group-append">
+                      <!-- Submit Button -->
+                      <button class="btn ui-gradient-peach">
+                        Subscribe <span class="fa fa-send"></span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <div>
+                <a class="btn ui-gradient-blue btn-circle shadow-md">
+                  <span class="fa fa-facebook"></span>
+                </a>
+                <a class="btn ui-gradient-peach btn-circle shadow-md">
+                  <span class="fa fa-instagram"></span>
+                </a>
+                <a class="btn ui-gradient-green btn-circle shadow-md">
+                  <span class="fa fa-twitter"></span>
+                </a>
+                <a class="btn ui-gradient-purple btn-circle shadow-md">
+                  <span class="fa fa-pinterest"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- .row -->
+        </div>
+        <!-- .container -->
 
-			<div class="section-heading center">
-				<h2 class="heading text-indigo">
-					Blog Pages Without Sidebar
-				</h2>
-			</div>
-			<div class="row">
-				<div class="col-md-3 col-6 mb" data-delay="200">
-					<div class="ui-card  demo-card shadow-md" data-target="page-blog-grid.html">
-						<img src="assets/img/demos/blog-grid.jpg" alt="Applify - App Landing HTML Template"
-						     class="img-responsive" data-uhd/>
-					</div>
-					<a target="_blank" href="page-blog-grid.html">
-						<h5>Blog Grid</h5>
-					</a>
-				</div>
-				<div class="col-md-3 col-6 mb" data-delay="400">
-					<div class="ui-card  demo-card shadow-md" data-target="page-blog-post.html">
-						<img src="assets/img/demos/blog-post.jpg" alt="Applify - App Landing HTML Template"
-						     class="img-responsive" data-uhd/>
-					</div>
-					<a target="_blank" href="page-blog-post.html">
-						<h5>Blog Post</h5>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
+        <!-- Footer Copyright -->
+        <div class="footer-copyright bg-gray">
+          <div class="container">
+            <div class="row">
+              <!-- Copyright -->
+              <div class="col-sm-6 center-on-sm">
+                <p>
+                  &copy; 2017
+                  <a href="#" target="_blank" title="Locoda">Locoda</a>
+                </p>
+              </div>
+              <!-- Social Icons -->
+              <div class="col-sm-6 text-right">
+                <ul class="footer-nav">
+                  <li>
+                    <a href="#"> Privacy Policy </a>
+                  </li>
+                  <li>
+                    <a href="#"> Terms &amp; Conditions </a>
+                  </li>
+                  <li>
+                    <a href="#"> FAQ </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- .container -->
+        </div>
+        <!-- .footer-copyright -->
+      </footer>
+      <!-- .ui-footer -->
+    </div>
+    <!-- .main -->
 
-	<!-- Other Pages Section -->
-	<div class="section">
-		<div class="container">
-			<div class="section-heading center">
-				<h2 class="heading text-indigo">
-					Additional Pages
-				</h2>
-				<p class="paragraph">
-					Applify comes with 2 additional pages for those rare occasion.
-				</p>
-			</div>
-		</div>
-		<div class="container text-center demo-container">
-			<div class="row">
-				<div class="col-md-3 col-6 mb" data-delay="200">
-					<div class="ui-card  demo-card shadow-md" data-target="page-coming-soon.html"
-					     style="height: 230px;">
-						<img src="assets/img/demos/applify-demo-coming-soon.png"
-						     alt="Applify - App Landing HTML Template" class="img-responsive" data-uhd
-						     style="transform: translateY(-230px);"/>
-					</div>
-					<a target="_blank" href="page-coming-soon.html">
-						<h5 class="heading">Coming Soon </h5>
-					</a>
-				</div>
-				<div class="col-md-3 col-6 mb" data-delay="400">
-					<div class="ui-card  demo-card shadow-md" data-target="page-404.html" style="height: 230px;">
-						<img src="assets/img/demos/applify-demo-404.png" alt="Applify - App Landing HTML Template"
-						     class="img-responsive" data-uhd style="transform: translateY(-230px);"/>
-					</div>
-					<a target="_blank" href="page-404.html">
-						<h5 class="heading">Error 404 <span class="badge badge-primary">New</span></h5>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Basic Footer -->
-	<footer class="ui-footer">
-		<!-- Footer Copyright -->
-		<div class="footer-copyright bg-dark-gray">
-			<div class="container">
-				<div class="row">
-					<!-- Copyright -->
-					<div class="col-6">
-						<p>
-							&copy; 2017 <a href="htpp://codeytech.com" target="_blank" title="Codeytech">Codeytech</a>
-							All Rights Reserved
-						</p>
-					</div>
-					<!-- Social Icons -->
-					<div class="col-6 text-right">
-						<a class="btn ui-gradient-blue btn-circle shadow-md">
-							<span class="fa fa-facebook"></span>
-						</a>
-						<a class="btn ui-gradient-peach btn-circle shadow-md">
-							<span class="fa fa-instagram"></span>
-						</a>
-						<a class="btn ui-gradient-green btn-circle shadow-md">
-							<span class="fa fa-twitter"></span>
-						</a>
-						<a class="btn ui-gradient-purple btn-circle shadow-md">
-							<span class="fa fa-pinterest"></span>
-						</a>
-					</div>
-				</div>
-			</div><!-- .container -->
-		</div><!-- .footer-copyright -->
-	</footer><!-- .ui-footer -->
-</div><!-- .main -->
-
-<!-- Scripts -->
-<script src="assets/js/libs/jquery/jquery-3.2.1.min.js"></script>
-<script src="assets/js/libs/bootstrap.js"></script>
-<script>
-    $('.demo-card').on('click', function (e) {
-        e.preventDefault();
-        e.stopPropagation();
-        var $target = $(this).attr('data-target');
-        window.open(
-            $target,
-            '_blank'
-        );
-    });
-</script>
-<script src="assets/js/applify/build/applify.js"></script>
-<script>
-    $(window).on('resize', function () {
-        demoCards();
-    });
-
-    function demoCards() {
-        $('.demo-card').each(function () {
-            var $this = $(this);
-            var conH = $this.height();
-            var imgH = $this.children('img').height();
-            var animDur = ((imgH / conH) - 1) * 1.25;
-            $this
-                .mouseover(function () {
-                    $this.children('img').css({
-                        'transition-duration': animDur + 's'
-                    });
-                })
-                .mouseout(function () {
-                    $this.children('img').css({
-                        'transition-duration': '1s'
-                    });
-                });
-        });
-    }
-</script>
-</body>
+    <!-- Scripts -->
+    <script src="assets/js/libs/jquery/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/libs/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/js/libs/slider-pro/jquery.sliderPro.min.js"></script>
+    <script src="assets/js/libs/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/js/libs/prism/prism.js"></script>
+    <!--
+# Google Maps
+# Add Your Google Maps API Key Below !!
+-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5B2iXEELo6aIReGYLJdVKBlzHnrM0YLU"></script>
+    <script src="assets/js/applify/ui-map.js"></script>
+    <script src="assets/js/libs/form-validator/form-validator.min.js"></script>
+    <script src="assets/js/libs/bootstrap.js"></script>
+    <script src="assets/js/applify/build/applify.js"></script>
+  </body>
 </html>
