@@ -1,3 +1,11 @@
 .ui-hero.hero-center img {
   margin-top: 0;
 }
+
+.ui-icon-block img {
+  width: 90px;
+  margin-bottom: 15px;
+}
+.ui-showcase-blocks img {
+  max-width: 300px !important;
+}
